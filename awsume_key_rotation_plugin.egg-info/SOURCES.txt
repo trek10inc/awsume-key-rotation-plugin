@@ -1,0 +1,6 @@
+setup.py
+awsume_key_rotation_plugin.egg-info/PKG-INFO
+awsume_key_rotation_plugin.egg-info/SOURCES.txt
+awsume_key_rotation_plugin.egg-info/dependency_links.txt
+awsume_key_rotation_plugin.egg-info/entry_points.txt
+awsume_key_rotation_plugin.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "pypi"
+url = "https://test.pypi.org/simple/"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+twine = "*"
+
+[packages]
+colorama = "*"
+awsume = "*"
+boto3 = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+build = "python setup.py sdist"
+deploy-test = "twine upload dist/*"
+deploy-pypi = "twine upload dist/*"
