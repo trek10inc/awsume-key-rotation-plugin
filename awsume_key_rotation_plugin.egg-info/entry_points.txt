@@ -1,3 +1,0 @@
-[awsume]
-key_rotation = key_rotation
-
