@@ -3,19 +3,12 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[[source]]
-name = "pypi"
-url = "https://test.pypi.org/simple/"
-verify_ssl = true
-
 [dev-packages]
 pylint = "*"
 twine = "*"
 
 [packages]
-colorama = "*"
 awsume = "*"
-boto3 = "*"
 
 [requires]
 python_version = "3.7"
